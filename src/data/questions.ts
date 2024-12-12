@@ -38,8 +38,8 @@ export const questions: Question[] = [
       c: "Mengkonfigurasi",
       d: "Sistematika"
     },
-    correctAnswer: "b",
-    explanation: "'Budidaya' adalah bentuk kata baku sesuai kaidah bahasa Indonesia."
+    correctAnswer: "a",
+    explanation: "'Budi daya' adalah bentuk kata baku sesuai kaidah bahasa Indonesia."
   },
   {
     id: 4,
@@ -155,8 +155,8 @@ export const questions: Question[] = [
       c: "Memublikasi",
       d: "Mentaati"
     },
-    correctAnswer: "b",
-    explanation: "'Mensintesis' adalah kata baku yang tepat."
+    correctAnswer: "c",
+    explanation: "'Menmublikasi' adalah kata baku yang tepat."
   },
   {
     id: 13,
@@ -220,8 +220,8 @@ export const questions: Question[] = [
       c: "12,20",
       d: "12’20"
     },
-    correctAnswer: "b",
-    explanation: "Pemisah jam dan menit yang tepat adalah menggunakan tanda titik dua (:), seperti 12:20."
+    correctAnswer: "a",
+    explanation: "Pemisah jam dan menit yang tepat adalah menggunakan tanda titik  (.), seperti 12.20."
   },
   {
     id: 18,
@@ -272,8 +272,8 @@ export const questions: Question[] = [
       c: "Legitimate",
       d: "Unique"
     },
-    correctAnswer: "c",
-    explanation: "'Legitimate' tidak termasuk hal penting dalam penyusunan bahan presentasi menurut materi."
+    correctAnswer: "d",
+    explanation: "'Unique' tidak termasuk hal penting dalam penyusunan bahan presentasi menurut materi."
   },
   {
     id: 22,
@@ -298,8 +298,8 @@ export const questions: Question[] = [
       c: "Posisi, warna, bentuk, tekstur",
       d: "a, b, c benar semua"
     },
-    correctAnswer: "d",
-    explanation: "Garis, bentuk, tekstur, warna, ruang, dan posisi semuanya adalah unsur desain."
+    correctAnswer: "a",
+    explanation: "Garis, bentuk, tekstur, warna, ruang adalah unsur desain."
   },
   {
     id: 24,
@@ -324,8 +324,8 @@ export const questions: Question[] = [
       c: "Menarik perhatian",
       d: "konstruksi"
     },
-    correctAnswer: "d",
-    explanation: "'Konstruksi' tidak termasuk dalam kriteria visualisasi yang baik."
+    correctAnswer: "a",
+    explanation: "'Fakta' tidak termasuk dalam kriteria visualisasi yang baik."
   },
 
   // **B. Tulis (B) jika pernyataan benar, dan (S) jika pernyataan tidak tepat.**
@@ -431,7 +431,7 @@ export const questions: Question[] = [
     id: 40,
     type: 'trueFalse',
     question: "Caption pada tabel disimpan di bagian bawah tabel.",
-    correctAnswer: true,
+    correctAnswer: false,
     explanation: "Caption pada tabel biasanya ditempatkan di bawah tabel."
   },
   {
@@ -452,7 +452,7 @@ export const questions: Question[] = [
     id: 43,
     type: 'trueFalse',
     question: "Kata depan atau awal kalimat disalahkan jika menggunakan imbuhan seperti: diantaranya.",
-    correctAnswer: false,
+    correctAnswer: true,
     explanation: "Penggunaan imbuhan pada kata depan harus sesuai dengan kaidah bahasa Indonesia, tetapi tidak disalahgunakan."
   },
   {
@@ -466,7 +466,7 @@ export const questions: Question[] = [
     id: 45,
     type: 'trueFalse',
     question: "Slide yang efektif nyaris tidak ada isinya (simpel).",
-    correctAnswer: false,
+    correctAnswer: true,
     explanation: "Slide yang efektif harus ringkas namun tetap informatif, bukan nyaris tidak ada isinya."
   },
   {
@@ -487,7 +487,7 @@ export const questions: Question[] = [
     id: 48,
     type: 'trueFalse',
     question: "Nomor halaman dimulai dari Sampul sampai Daftar Lampiran dinyatakan dengan i, ii, iii, iv, dan seterusnya.",
-    correctAnswer: true,
+    correctAnswer: false,
     explanation: "Halaman awal seperti Sampul dan Abstrak menggunakan angka romawi kecil (i, ii, iii, iv,…)."
   },
   {
